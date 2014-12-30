@@ -29,7 +29,7 @@ def draw_house(length):
 z.speed = 'faster' 
 z.left()
 z.jump(170)
-z.right()
+z.right(100000)
 z.jump(-25)
 for count in range(12):
     z.color = z.random_color()

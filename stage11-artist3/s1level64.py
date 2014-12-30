@@ -36,13 +36,13 @@ def draw_square(length):
         zombie.move_forward(length)
         zombie.turn_right(90)
 
-zombie.speed = 'fast'
+zombie.speed = 'fastest'
 
 smallest = 10                                    # ???
 longest = 60                                     # ???
 by = 20                                          # ??? 
 
-for counter in range(smallest, longest + 1, by):
+for counter in range(50,91,10):
     draw_square(counter)
 
 zombie.check()

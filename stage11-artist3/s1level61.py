@@ -13,7 +13,7 @@ sys.path.append('..')
 import codestudio
 zombie = codestudio.load('s1level61')
 z = zombie
-
+z.speed = 'fastest'
 def draw_square(length):
     for count in range(4):
         zombie.move_forward(length)
@@ -21,5 +21,8 @@ def draw_square(length):
 
 zombie.color = zombie.random_color()
 draw_square(100)
-
+z.lt(120)
+draw_square(100)
+z.lt(120)
+draw_square(100)
 zombie.check()

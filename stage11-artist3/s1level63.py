@@ -9,7 +9,7 @@ import sys
 sys.path.append('..')
 import codestudio
 zombie = codestudio.load('s1level63')
-zombie.speed = 'fast'
+zombie.speed = 'fastest'
 z = zombie
 
 def draw_square(length):
@@ -18,5 +18,9 @@ def draw_square(length):
         zombie.turn_right(90)
 
 draw_square(50)
+draw_square(60)
+draw_square(70)
+draw_square(80)
+draw_square(90)
 
 zombie.check()

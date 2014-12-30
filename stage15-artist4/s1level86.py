@@ -22,7 +22,15 @@ def draw_triangle():
         z.turn_right(120)
 
 def draw_house():
-    pass
+    for count in range(4):
+        z.fd()
+        z.rt()
+    z.fd()
+    z.lt(60)
+    z.rt()
+    draw_triangle()
+draw_house()
+        
 
 # ???
 

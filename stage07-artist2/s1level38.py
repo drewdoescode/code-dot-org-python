@@ -12,8 +12,8 @@ sys.path.append('..')
 import codestudio
 artist = codestudio.load('s1level38')
 a = artist
-
-for count2 in range(2):
+a.speed = 'fastest'
+for count2 in range(100):
     artist.color = artist.colour_random()
     for count in range(3):
         artist.move_forward(100)

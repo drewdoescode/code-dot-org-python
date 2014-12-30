@@ -30,10 +30,10 @@ def draw_snowman(length):
     zombie.left()
 
 zombie.speed = 'fast'
-zombie.width = 1
+zombie.width = 3
 
 for counter in range(100):
     zombie.move(counter)
-    zombie.right(91)
+    zombie.right(89)
 
 zombie.wait()
